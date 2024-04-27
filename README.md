@@ -40,7 +40,7 @@ Mini Project of Top Navbar using HTML,CSS and JavaScript
 
 ### 2. Create the folder and file structure as shown below
 
-![img](./documentation/images/7.PNG)
+![img](./documentation/images/7.png)
 
 ### 3. Code for 'index.html'
 
