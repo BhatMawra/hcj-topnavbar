@@ -20,11 +20,11 @@ Mini Project of Top Navbar using HTML,CSS and JavaScript
 
 ### 2. Go to Settings --> Pages -->  Github Actions
 
-![img](./documentation/images/2.png)
+![img](./documentation/images/2.PNG)
 
 ### 3. Under 'Static HTML' , select configure and commit your changes
 
-![img](./documentation/images/3.png)
+![img](./documentation/images/3.PNG)
 
 ### 4. Your static website has been deployed
 
@@ -36,7 +36,7 @@ Mini Project of Top Navbar using HTML,CSS and JavaScript
 
 ![img](./documentation/images/5.PNG)
 
-![img](./documentation/images/6.png)
+![img](./documentation/images/6.PNG)
 
 ### 2. Create the folder and file structure as shown below
 
