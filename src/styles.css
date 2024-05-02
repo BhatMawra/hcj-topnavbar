@@ -5,90 +5,101 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: Arial, sans-serif;
+  /* background-color: #FFF8DC; */
+  /* Cornsilk */
+  color: #8B4513;
+  /* Black */
   margin: 0;
   padding: 0;
   height: 100vh;
-  line-height: 2.2;
-  font-size: 0.875rem;
-  display:flex;
-  flex-direction: column;
 }
 
-h2 {
-  margin-bottom: 1rem;
-  color: #945113;
+header {
+  /* background-color: #8B4513; */
+  background-color: #322C2B;
+  /* Saddle Brown */
+  color: #FFFFFF;
+  /* White */
+  padding: 5px;
+  /* box-shadow: 0 5px 5px  #8B4513; */
+  box-shadow: 0 2px 0 2px #c1c1c0;
 }
 
-/* img {
-  height: 48px;
-  width: 150px;
+header h1 {
+  margin: 0;
 }
 
-i {
-  font-size: 3rem;
-  color: #1e8cfa;
-} */
-
-nav {
-  background: rgba(35, 25, 17, 0.986);
-  box-shadow: 0 5px 15px #634b01;
-}
-
-.nav-main {
-  max-width: 95%;
-  /* margin: 0 0.2rem 0 0.2rem; */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.nav-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.menu {
-  height: auto;
-  display: flex;
-}
-
-ul {
+nav ul {
   list-style-type: none;
-  font-family: sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-.menu a {
-  color: #f0f1f2;
-  font-weight: lighter;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  display: block;
   padding: 0;
-  margin: 0 0.5rem;
-  transition: all 0.3s linear;
 }
 
-.menu a:hover {
-  background: #3b4853;
-  color: #ecf5fa;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.welcome-msg {
-  display: flex;
-  color: #835425;
-  justify-content: center;
-  font-family: sans-serif;
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  /* White */
+  padding: 10px;
 }
 
-.banner-div {
-  margin-top: 0;
+nav ul li a:hover {
+  /* color: #D2691E; */
+  /* Chocolate */
+  color: #8B4513;
+  background-color: #F5DEB3;
+}
+
+.products {
+  padding: 20px;
+}
+
+.products h2 {
+  color: #4B0082;
+  /* Indigo */
+}
+
+.product-card {
+  background-color: #D2691E;
+  /* Chocolate */
+  color: #FFFFFF;
+  /* White */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  /* background-color: #4B0082; */
+  background-color: #E4C59E;
+  /* Indigo */
+  /* color: #FFFFFF; */
+  color: #803D3B;
+  /* White */
+  text-align: left;
+  padding: 5px;
+  margin-top: 165px;
+}
+
+banner-div {
+  margin-top: .6rem;
+  position: relative;
+}
+
+.image-credit {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Adjust background color and opacity */
+  padding: 5px;
+  /* Adjust padding as needed */
+  margin: 0;
+  /* Remove any default margin */
 }
 
 #banner1 {
@@ -96,12 +107,9 @@ a {
   width: 100%;
 }
 
-.footer {
-  background-color: #dfb998;
-  color: #835425;
-  font-weight: lighter;
-  font-family:'Times New Roman', Times, serif;
-  text-align: left;
-  margin-left: 0.1rem;
-  margin-top: auto;
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
